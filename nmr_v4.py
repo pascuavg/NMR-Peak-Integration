@@ -16,6 +16,7 @@ import shutil
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
 
+
 def find_pdata_directories(root_dir):
     pdata_dirs = []
     for dirpath, _, filenames in os.walk(root_dir):
